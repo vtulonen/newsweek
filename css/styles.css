@@ -19,3 +19,20 @@
 	order: 1;
 }
 
+.menu {
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	list-style-type: none;
+
+}
+
+.menu * {
+	padding-right: 20px;
+	margin: 6px 0;
+}
+
+ul {
+	margin: 0;
+}
