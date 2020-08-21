@@ -44,10 +44,32 @@
   <section class="container-fluid">
     <div class="container">
       <div class="row">
-        <div class="col featured">
+
+        
+    <!-- Left side column featured stories -->
+        <div class="col-lg col-md-5 featured">
+          <!-- Top story on small screens, hidden on larger -->
+          <div class="top-story-container d-none d-sm-block d-md-none">
+            <div class="block-title">
+              <h3>Top story</h3>
+            </div>
+            <article>
+              <div class="card" style="width: 100%;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- Hidden top story ends -->
+
           <h3>Featured</h3>
           <article>
-            <div class="card" style="width: 21rem;">
+            <div class="card" style="width: 100%;">
               <img src="..." class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -57,9 +79,41 @@
               </div>
             </div>
           </article>
-
           <article>
-            <div class="card" style="width: 21rem;">
+            <div class="card" style="width: 100%;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="card" style="width: 100%;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="card" style="width: 100%;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="card" style="width: 100%;">
               <img src="..." class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -71,41 +125,45 @@
           </article>
         </div>
 
-        <div class="col">
-          <h3>Top story</h3>
-          <article>
-            <div class="card" style="width: 21rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+        <!-- Top story, my turn, culture + more stories -->
+        <div class="col-lg col-md-7">
+          <div class="top-story-container d-none d-md-block">
+            <div class="block-title">
+              <h3>Top story</h3>
             </div>
-          </article>
-
+            <article>
+              <div class="card" style="width: 100%;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </article>
+          </div>
 
           <div class="culture-stories">
             <div class="block-title">
               <h3>My turn</h3>
             </div>
             <div class="culture-stories__items flex">
-              <div class="card" style="width: 7rem;">
+              <div class="card" style="width: 33.3333%;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up.</p>
                 </div>
               </div>
 
-              <div class="card" style="width: 7rem;">
+              <div class="card" style="width: 33.3333%;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up.</p>
                 </div>
               </div>
 
-              <div class="card" style="width: 7rem;">
+              <div class="card" style="width: 33.3333%;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up.</p>
@@ -118,21 +176,21 @@
               <h3>Culture & travel</h3>
             </div>
             <div class="culture-stories__items flex">
-              <div class="card" style="width: 7rem;">
+              <div class="card" style="width: 33.3333%;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up.</p>
                 </div>
               </div>
 
-              <div class="card" style="width: 7rem;">
+              <div class="card" style="width: 33.3333%;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up.</p>
                 </div>
               </div>
 
-              <div class="card" style="width: 7rem;">
+              <div class="card" style="width: 33.3333%;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up.</p>
@@ -145,7 +203,7 @@
             </div>
 
             <article>
-              <div class="card" style="max-width: 21rem;">
+              <div class="card" style="max-width: 100%;">
                 <div class="row no-gutters">
                   <div class="col-md-4">
                     <img src="..." class="card-img" alt="...">
@@ -162,18 +220,207 @@
               </div>
             </article>
 
+            <article>
+              <div class="card" style="max-width: 100%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="..." class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content.</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="card" style="max-width: 100%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="..." class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content.</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="card" style="max-width: 100%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="..." class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content.</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="card" style="max-width: 100%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="..." class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content.</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="card" style="max-width: 100%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="..." class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content.</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="card" style="max-width: 100%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="..." class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content.</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="card" style="max-width: 100%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="..." class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content.</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="card" style="max-width: 100%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="..." class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content.</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="card" style="max-width: 100%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="..." class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content.</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="card" style="max-width: 100%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="..." class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content.</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="card" style="max-width: 100%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="..." class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content.</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            
 
           </div>
         </div>
 
-        <div class="col">
+        <!-- Debate, opinion -->
+        <div class="col-lg">
           <div class="debate">
             <div class="block-title">
               <h3>The debate</h3>
             </div>
 
             <div class="debate__item">
-              <div class="card" style="max-width: 15rem;">
+              <div class="card" style="max-width: 100%;">
                 <div class="row no-gutters">
                   <div class="col-md-4">
                     <img src="..." class="card-img" alt="...">
@@ -196,7 +443,7 @@
 
 
           <div class="debate__item">
-            <div class="card" style="max-width: 15rem;">
+            <div class="card" style="max-width: 100%;">
               <div class="row no-gutters">
                 <div class="col-md-8">
                   <div class="card-body">
@@ -220,7 +467,7 @@
 
             <div class="opinion__item">
               <div class="debate__item">
-                <div class="card" style="max-width: 15rem;">
+                <div class="card" style="max-width: 100%;">
                   <div class="row no-gutters">
                     <div class="col-md-4">
                       <img src="..." class="card-img" alt="...">
@@ -229,22 +476,130 @@
                       <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below.</p>
-  
+
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="opinion__item">
+              <div class="debate__item">
+                <div class="card" style="max-width: 100%;">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="..." class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="opinion__item">
+              <div class="debate__item">
+                <div class="card" style="max-width: 100%;">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="..." class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below.</p>
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="opinion__item">
+              <div class="debate__item">
+                <div class="card" style="max-width: 100%;">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="..." class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below.</p>
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="opinion__item">
+              <div class="debate__item">
+                <div class="card" style="max-width: 100%;">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="..." class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="opinion__item">
+              <div class="debate__item">
+                <div class="card" style="max-width: 100%;">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="..." class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="opinion__item">
+              <div class="debate__item">
+                <div class="card" style="max-width: 100%;">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="..." class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
 
 
         </div>
       </div>
+
+
+    </div>
+    </div>
 
   </section>
 
