@@ -19,6 +19,69 @@
 	order: 1;
 }
 
+
+h3 {
+	margin-top: .5rem;
+	font: bold 16px sans-serif;
+	text-transform: uppercase;
+	padding-bottom: 11px;
+	color: rgba(3,3,3,.4);
+}
+
+/* Debate */
+
+
+.debate__item .small-card {
+	border:none
+}
+.small-card {
+	border: none;
+	border-bottom: rgb(228, 228, 228) solid 1px;
+	border-radius: 0;
+}
+
+.small-card .card-body {
+	padding: 0;
+	margin-bottom: 1em;
+}
+.center {
+	display: grid;
+	place-items: center;
+}
+
+.debate__deco {
+	text-align: center;
+	padding: 1em;
+}
+.debate-img {
+	width: 63px;
+	height: 63px;
+	border-radius: 50%;
+	
+}
+
+.first {
+	border-top: rgb(228, 228, 228) solid 3px;
+	padding-top: 1em;
+}
+.last {
+	border-bottom: rgb(228, 228, 228) solid 3px;
+	padding-bottom: 1em;
+}
+
+
+/* Magazine */
+
+.magazine__card-img {
+	object-fit: cover;
+}
+
+img {
+	object-fit: cover;
+}
+
+/* Footer */
+
 .menu {
 	padding: 0;
 	display: flex;
