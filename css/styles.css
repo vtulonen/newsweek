@@ -1,55 +1,74 @@
 
 
 
+:root {
+	--c-red: #F72210;
+}
 
-
+/* Placement */
 
 .container {
 	max-width: 1310px;
 }
 
-
-
-
 .flex {
 	display: flex;
 }
 
-.top-story-container {
-	order: 1;
-}
-
-
-h3 {
-	margin-top: .5rem;
-	font: bold 16px sans-serif;
-	text-transform: uppercase;
-	padding-bottom: 11px;
-	color: rgba(3,3,3,.4);
-}
-
-
-
 .pad-left {
 	padding: 0 0 0 1em;
 }
-/* Debate */
 
 
-.debate__item .small-card {
-	border:none
+
+
+/* Top story */
+.top-story-container {
+	margin-bottom: 2em;
 }
-.small-card {
+
+
+
+
+
+
+/* Cards */
+
+
+.card {
 	border: none;
+}
+
+.card-img-top {
+	border-radius: 0;
+}
+
+.small-card {
 	border-bottom: rgb(228, 228, 228) solid 1px;
 	border-radius: 0;
 	margin: 1em 0;
 }
 
 .small-card .card-body {
-	padding: 0 0 0 1em;
-	margin-bottom: 1em;
+	padding: 0 0 1em 1em;
+	
 }
+
+.medium-card {
+	margin: 0 .5em;
+}
+
+
+/* Debate */
+
+.debate {
+	margin-bottom: 2em;
+}
+
+.debate__item .small-card {
+	border:none
+}
+
 .center {
 	display: grid;
 	place-items: center;
@@ -57,7 +76,6 @@ h3 {
 
 .debate__deco {
 	text-align: center;
-	padding: 1em;
 }
 .debate-img {
 	width: 63px;
@@ -104,4 +122,62 @@ img {
 
 ul {
 	margin: 0;
+}
+
+
+
+/* Typography */
+
+h3 {
+	margin-top: .5rem;
+	font: bold 16px sans-serif;
+	text-transform: uppercase;
+	padding-bottom: 11px;
+	color: rgba(3,3,3,.4);
+}
+
+
+.first-magazine > div:nth-child(2) {
+	text-align: center;
+}
+
+.link-gray {
+	color: black;
+	font-weight: bold;
+}
+
+.card-body > a{
+	color: black;
+	font-weight: bold;
+}
+
+.category {
+	color: var(--c-red);
+	font-weight: bold;
+}
+
+.mag-cat {
+	padding: .2em;
+	color: white;
+	background-color: var(--c-red);
+}
+
+.red {
+	color: var(--c-red);
+}
+
+/* Buttons */
+
+.btn {
+	color:white;
+}
+.btn-primary {
+	background-color: var(--c-red);
+	border: none;
+	font-weight: bold;
+	color: white;
+}
+
+.form-text {
+	margin-bottom: .5em;
 }
