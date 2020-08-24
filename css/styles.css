@@ -4,10 +4,17 @@
 	--c-gray: rgba(3, 3, 3, .4);
 }
 
+
+
+body {
+	background-color: #f4f5f6;
+}
+
 /* Placement */
 
 .container {
 	max-width: 1310px;
+	background-color: #fff;
 }
 
 .flex {
