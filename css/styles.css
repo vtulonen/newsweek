@@ -1,9 +1,7 @@
-
-
-
 :root {
-	--c-red: #f72210;;
-	--c-gray: rgba(3,3,3,.4);
+	--c-red: #f72210;
+	;
+	--c-gray: rgba(3, 3, 3, .4);
 }
 
 /* Placement */
@@ -20,8 +18,6 @@
 	padding: 0 0 0 1em;
 }
 
-
-
 /* Header */
 
 .page-header__top {
@@ -32,9 +28,7 @@
 	background-color: var(--c-red);
 	color: white;
 	fill: white;
-
-	clip-path: polygon( 0% 0%, 100% 0%, 100% 100%, 95% 100%, 93% 85%, 0% 85% );
-	
+	clip-path: polygon( 0% 0%, 100% 0%, 100% 100%, 95% 100%, 93% 85%, 0% 85%);
 }
 
 .header-row {
@@ -59,7 +53,7 @@
 	border-right: solid rgb(224, 224, 224) 1px;
 }
 
-.links-categories > .menu {
+.links-categories>.menu {
 	justify-content: space-between;
 	padding-bottom: 1em;
 }
@@ -68,11 +62,11 @@
 	color: var(--c-gray);
 }
 
-.menu-bottom > li:nth-child(1) > a:nth-child(1) {
+.menu-bottom>li:nth-child(1)>a:nth-child(1) {
 	color: black;
 }
 
-.search > input {
+.search>input {
 	max-width: 80px;
 	border: none;
 	background-color: #fff;
@@ -82,7 +76,6 @@
 .buttons {
 	grid-template-columns: 1fr 1fr;
 	width: auto;
-	
 }
 
 .login-btn {
@@ -104,23 +97,17 @@
 	display: inline-block;
 }
 
-
 .logo-main__img {
 	max-width: 100%;
 }
 
 /* Top story */
+
 .top-story-container {
 	margin-bottom: 2em;
 }
 
-
-
-
-
-
 /* Cards */
-
 
 .card {
 	border: none;
@@ -138,13 +125,11 @@
 
 .small-card .card-body {
 	padding: 0 0 1em 1em;
-	
 }
 
 .medium-card {
 	margin: 0 .5em;
 }
-
 
 /* Debate */
 
@@ -153,7 +138,7 @@
 }
 
 .debate__item .small-card {
-	border:none
+	border: none
 }
 
 .center {
@@ -164,22 +149,20 @@
 .debate__deco {
 	text-align: center;
 }
+
 .debate-img {
 	width: 63px;
 	height: 63px;
 	border-radius: 50%;
-	
 }
 
 .first {
 	border-top: rgb(228, 228, 228) solid 3px;
-	
 }
+
 .last {
 	border-bottom: rgb(228, 228, 228) solid 3px;
-
 }
-
 
 /* Magazine */
 
@@ -199,7 +182,6 @@ img {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	list-style-type: none;
-
 }
 
 .menu * {
@@ -207,11 +189,12 @@ img {
 	margin: 6px 0;
 }
 
-.page-footer__links ul > li {
+.page-footer__links ul>li {
 	color: var(--c-gray);
 	border-right: solid rgb(224, 224, 224) 1px;
 	padding: 0 0 0 1em;
 }
+
 ul {
 	margin: 0;
 }
@@ -227,8 +210,6 @@ ul {
 	border-bottom: solid rgb(224, 224, 224) 1px;
 }
 
-
-
 /* Typography */
 
 h3 {
@@ -236,11 +217,10 @@ h3 {
 	font: bold 16px sans-serif;
 	text-transform: uppercase;
 	padding-bottom: 11px;
-	color: rgba(3,3,3,.4);
+	color: rgba(3, 3, 3, .4);
 }
 
-
-.first-magazine > div:nth-child(2) {
+.first-magazine>div:nth-child(2) {
 	text-align: center;
 }
 
@@ -249,7 +229,7 @@ h3 {
 	font-weight: bold;
 }
 
-.card-body > a{
+.card-body>a {
 	color: black;
 	font-weight: bold;
 }
@@ -272,8 +252,9 @@ h3 {
 /* Buttons */
 
 .btn {
-	color:white;
+	color: white;
 }
+
 .btn-primary {
 	background-color: var(--c-red);
 	border: none;
@@ -284,3 +265,6 @@ h3 {
 .form-text {
 	margin-bottom: .5em;
 }
+
+
+/* TODO STICKY HEADER / ON SCROLL HEADER /w JS */
